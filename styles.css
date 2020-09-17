@@ -1,0 +1,107 @@
+.all {
+    display: table;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h3 {
+    color: red;
+}
+
+.center-fixed {
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+form {
+    width: 260px;
+    height: auto;
+    margin: 0 auto auto auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: 320px;
+}
+
+form input {
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    font: 15px arial, sans-serif;
+    margin-bottom: 12px;
+}
+
+form input:focus {
+    border: 3px solid #333;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+form input[type=text] {
+    width: 100%;
+    padding: 3px 5px;
+}
+
+form input[type=submit] {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    padding: 12px 32px;
+    transition: 0.1s;
+    border: 0 none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+form input[type=submit]:active {
+    font-weight: bold;
+}
+
+table {
+    width: auto;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-left: -26px;
+    margin-top: -368px;
+}
+
+table caption {
+    font: 15px sans-serif;
+    text-shadow: 2px 2px lightgray;
+}
+
+table thead tr {
+    background-color: gray;
+    color: white;
+}
+
+table thead tr th {
+    padding: 3px 8px;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+}
+
+table tbody tr:hover {
+    background-color: lightgray;
+}
+
+table tbody td {
+    border: 1px dotted gray;
+    padding: 3px 6px;
+}
+
+table button {
+    border-radius: 10px;
+    background-color: darkslategray;
+    color: lightblue;
+    padding: 3px 15px;
+}
